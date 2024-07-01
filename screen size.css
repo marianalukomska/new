@@ -1,0 +1,81 @@
+/* CSS for 1920x1080 screen resolution */
+@media (min-width: 1920px) and (min-height: 1080px) {
+    body {
+        background-color: lightblue;
+        font-size: 18px;
+    }
+
+    header {
+        height: 100px;
+        background-color: navy;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        background-color: darkblue;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    footer {
+        height: 50px;
+        background-color: navy;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* CSS for screens smaller than 1920x1080 */
+@media (max-width: 1919px), (max-height: 1079px) {
+    body {
+        background-color: white;
+        font-size: 16px;
+    }
+
+    header {
+        height: 80px;
+        background-color: darkslategray;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        background-color: slategray;
+        padding: 8px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    footer {
+        height: 40px;
+        background-color: darkslategray;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
